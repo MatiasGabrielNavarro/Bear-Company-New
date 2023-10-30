@@ -159,7 +159,7 @@ footer p {
 }
 .pie {
     width: 80%;
-    height: 100px;
+    height: 120px;
     padding-left: 330px;
 }
 
@@ -198,7 +198,7 @@ footer p {
 
 }
 
-@media(max-width: 630px) {
+@media(max-width: 695px) {
     .menu {
         left: 2rem;
         width: unset;
@@ -232,7 +232,7 @@ footer p {
 
 
 
-@media(max-width: 576px) {
+@media(max-width: 610px) {
     .menu {
         left: 2rem;
         width: unset;
@@ -268,10 +268,8 @@ footer p {
         padding-left: 0;
     }
 }
-@media(max-width: 475px){
 
-}
-@media(max-width: 385px) {
+@media(max-width: 480px) {
     
     body {
         margin: 0;
@@ -302,10 +300,22 @@ footer p {
         padding-left: 0;
     }
     .pepe {
-        padding-left: 13px;
+        padding-left: 0px;
     }
     .Unidos {
         padding: 0px;
         padding-top: 50px;
+    }
+    .UADE {
+        padding-left: 50px;
+    }
+}
+@media(max-width: 470px) {
+    .pepe {
+        padding-left: 15px;
+    }
+    .UADE {
+        float: right;
+        padding-top: 0px;
     }
 }
