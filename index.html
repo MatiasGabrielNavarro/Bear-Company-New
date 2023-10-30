@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+    <script src="https://kit.fontawesome.com/4112fb8102.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Judson&family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <title>Bear company</title>
+    
+    <script src="index.j"></script>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+           <div class="logo"><a href="#" target="_blank" class="bearcompany">Bear Company</a></div>      
+            <ul class="links">
+            <li><a href="#" target="_blank">Home</a></li>
+            <li><a href="#" target="_blank">Objetivo</a></li>
+            <li><a href="#" target="_blank">Cuidado</a></li>
+            <li><a href="#" target="_blank">Contacto</a></li>
+            </ul>
+            <a href="#" target="_blank" class="unete">Unete</a>
+            <div class="togle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        
+        
+        <div class="menu">
+            <li><a href="#" target="_blank">Home</a></li>
+            <li><a href="#" target="_blank">Objetivo</a></li>
+            <li><a href="#" target="_blank">Cuidado</a></li>
+            <li><a href="#" target="_blank">Contacto</a></li>
+            <li><a href="#" target="_blank" class="unete">Unete</a></li>
+        </div>
+      </header>
+      
+      <main>
+        <section id="section1">
+
+          <div class="container glass">
+            <h1>¡Ayuda a mejorar el habitad de los osos!</h1>
+            <p>Se parte de esta hermosa compañia, juntos podemos evitar la extinción de estos hermosos animales. <br> <br>
+               <b class="Unidos">Unidos Siempre</b>
+              
+              
+            </p>
+          </div>
+          
+        </section>
+      </main>
+
+
+
+
+       <footer>
+          <div class="pie">
+            <a href="https://matiasgabrielnavarro.github.io/Proyecto/" class="sitiodelgrupo">Sitio del grupo</a>  <p class="matias">Matias Gabriel</p> <p class="joaquin">Joaquin Pampuri</p> <p class="pepe">Pedro Figari</p> <a href="https://www.uade.edu.ar/" class="UADE">UADE</a>  
+          </div>
+              
+
+          
+       </footer>
+    <script>
+        const toggleBtn = document.querySelector('.togle')
+        const toggleBtnIcon = document.querySelector('.togle i')
+        const dropDownMenu = document.querySelector('.menu')
+
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+
+            toggleBtnIcon.classList = isOpen
+            ? 'fa-solid fa-xmark'
+            : 'fa-solid fa-bars'
+        }
+    </script>
+    
+</body>
+</html>
