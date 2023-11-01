@@ -109,19 +109,35 @@ header {
 }
 
 /*section1*/
+#section1 {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    margin-top: 70px;
+    height: 500px;
+    width: 100%;
 
+ 
+}
 .container {
     width: 600px;
     height: 400px;
-    margin: 200px auto;
+    margin: 50px 50px;
+    float: right;
+    
+
 }
+
 .glass {
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 20px;
     border:1px solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37)
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 .container h1 {
     font-size: 2rem;
@@ -136,12 +152,57 @@ header {
 .Unidos {
     color: #fff;
     font-size:2rem;
-    padding: 100px 0px;
+    float: right;
+
+}
+
+
+
+
+/*section2*/
+#section2 {
+    height: 80vh;
+}
+.container1 {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    margin-top: 70px;
+    height: 500px;
+    width: 100%;
+}
+.caja {
+    width: 600px;
+    height: 400px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    margin: 50px 50px; 
+}
+.container1 h1 {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.container1 p {
+    padding: 0 25px;
+    font-size: 1.3rem;
+}
+.Unidos {
+    color: #fff;
+    font-size:2rem;
+
     float: right;
 }
-main { 
-    margin-bottom: 100px;
-}
+
+
 footer {
     background-color: #404040;
     width: 100%;
