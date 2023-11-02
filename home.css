@@ -9,9 +9,9 @@
 }
 body {
     height: 100vh;
-    background-image: url(fotos/fondoBear1D.jpg);
+    background-image: url(fotos/fondo-section1.jpeg);
     background-size: cover;
-    background-position: center center;
+    background-position: center;
 
 }
 li {
@@ -110,14 +110,10 @@ header {
 
 /*section1*/
 #section1 {
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 20px;
-    border:1px solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    background-image: url();
+    background-size: cover;
     margin-top: 70px;
-    height: 500px;
+    height: 50vh;
     width: 100%;
 
  
@@ -125,19 +121,19 @@ header {
 .container {
     width: 600px;
     height: 400px;
-    margin: 50px 50px;
+    margin: 40px 50px;
+    border-radius: 20px;
+    border: 3px solid #00000010;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     float: right;
     
 
 }
 
 .glass {
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 20px;
-    border:1px solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    background: #ffffff10;
+    backdrop-filter: brightness(60%);
+
 }
 .container h1 {
     font-size: 2rem;
@@ -152,8 +148,7 @@ header {
 .Unidos {
     color: #fff;
     font-size:2rem;
-    float: right;
-
+    padding-left: 300px;
 }
 
 
@@ -161,46 +156,28 @@ header {
 
 /*section2*/
 #section2 {
-    height: 80vh;
+    height: 70vh;
 }
-.container1 {
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 20px;
-    border:1px solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    margin-top: 70px;
-    height: 500px;
-    width: 100%;
-}
-.caja {
+
+.container2 {
     width: 600px;
     height: 400px;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    margin: 40px 50px;
     border-radius: 20px;
-    border:1px solid rgba(255, 255, 255, 0.18);
+    border: 3px solid #00000010;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    margin: 50px 50px; 
 }
-.container1 h1 {
+.container2 h1 {
     font-size: 2rem;
     color: #fff;
     text-align: center;
     padding: 20px;
 }
-.container1 p {
+.container2 p {
     padding: 0 25px;
     font-size: 1.3rem;
 }
-.Unidos {
-    color: #fff;
-    font-size:2rem;
 
-    float: right;
-}
 
 
 footer {
@@ -213,7 +190,7 @@ footer {
  }
 footer p {
     display: inline-block;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 300;
     padding-top: 20px;
     padding-left: 20px;
@@ -223,11 +200,13 @@ footer p {
     height: 120px;
     padding-left: 330px;
 }
-
+.pie p {
+    padding-top: 20px;
+}
 .UADE {
     font-family: 'Judson', serif;
-    font-size: 1.5em;
-    padding-top: 12px;
+    font-size: 1.8em;
+    padding-top: 5px;
     float: right;
 }
 
@@ -251,7 +230,11 @@ footer p {
         display: block;
     }
     .container {
-       margin: 250px auto ;
+       margin: 0px auto ;
+       margin-top: 200px;
+    }
+    .container2 {
+        margin-top: 200px;
     }
     .pie {
         padding-left: 1em;
@@ -260,24 +243,21 @@ footer p {
 }
 
 @media(max-width: 695px) {
-    .menu {
-        left: 2rem;
-        width: unset;
+    body {
+        height: 140vh;
+    }
+    #section1 {
+      margin-top: 30px;
+    }
+    #section2 {
+        height: 50vh;
     }
     .container {
-        width: 500px;
-        height: 400px; 
+        margin-top: 250px;
+        float: none;
     }
-    .container h1 {
-        font-size: 1.5em ;
-        padding: 10px 0;
-    }
-    .container p {
-        font-size: 23px;
-        padding: 5px 10px;
-    }
-    .Unidos {
-        font-size:1.5em;
+    .container2 {
+        margin: 10px auto;
     }
     .pie {
         width: 90%;
@@ -293,16 +273,18 @@ footer p {
 
 
 
-@media(max-width: 610px) {
-    .menu {
-        left: 2rem;
-        width: unset;
+@media(max-width: 630px) {
+    body {
+        height: 150vh;
     }
-    main {
-        margin: 0;
+    #section1 {
+        height: 45vh;
+    }
+    #section2 {
+        height: 70vh;
     }
     .container {
-        width: 340px;
+        width: 500px;
         height: 300px; 
     }
     .container h1 {
@@ -312,10 +294,19 @@ footer p {
     .container p {
         font-size: 20px;
         padding: 5px;
+        color: #fff;
     }
     .Unidos {
         padding: 0px;
         padding-top: 50px;
+        padding-left: 200px;
+    }
+    .container2 {
+        width: 500px;
+        height: 300px; 
+    }
+    .container2 p {
+        color: #fff;
     }
     .pepe {
         padding-left: 0;
@@ -330,53 +321,80 @@ footer p {
     }
 }
 
-@media(max-width: 480px) {
-    
-    body {
-        margin: 0;
-        padding: 0;
-        height: 100vh;  
-    }
-    .menu {
-        left: 2rem;
-        width: unset;
-    }
+@media(max-width: 520px) {
+
     .container {
-        width: 340px;
-        height: 300px; 
+        width: 400px;
+        height: 370px; 
     }
     .container h1 {
-        font-size: 1.25em ;
+        font-size: 1.5em ;
         padding: 10px 0;
     }
     .container p {
-        font-size: 20px;
+        font-size: 22px;
         padding: 5px;
+    }
+    .container2 {
+        width: 400px;
+        height: 370px; 
+    }
+    .pie {
+        width: 90%;
     }
     footer {
         height: 15%;
         padding: 0;
     }
+    .matias {
+        padding-left: 25px;
+    }
     .joaquin {
-        padding-left: 0;
+        float: right;
     }
     .pepe {
         padding-left: 0px;
     }
     .Unidos {
-        padding: 0px;
-        padding-top: 50px;
-    }
-    .UADE {
-        padding-left: 50px;
-    }
-}
-@media(max-width: 470px) {
-    .pepe {
-        padding-left: 15px;
+        font-size: 1.5em;
+        padding-top: 100px;
+        padding-left: 100px;
     }
     .UADE {
         float: right;
-        padding-top: 0px;
+    }
+}
+@media(max-width: 519px) {
+    .pie {
+        width: 80%;
+    }
+    .joaquin {
+        float: none;
+        padding-left: 0px;  
+    }
+    .pepe {
+        padding-left: 10px;
+    }
+    .UADE {
+        padding-left: 30px;
+        float: none;
+    }
+}
+@media (max-width: 489px){
+    .UADE {
+       padding-left: 25px;
+    }
+}
+
+@media(max-width: 420px) {
+    .container {
+        width: 350px;
+
+    }
+    .container2 {
+        width: 350px;
+    }
+    .UADE {
+        float: right;
     }
 }
