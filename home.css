@@ -312,17 +312,12 @@ footer p {
         padding-left: 0;
     }
 }
-@media(max-width:490px) {
-    .joaquin {
-        padding-left: 0;
-    }
-    .pepe {
-        padding-left: 0;
-    }
-}
+
 
 @media(max-width: 520px) {
-
+    body {
+        height: 160vh;
+    }
     .container {
         width: 400px;
         height: 370px; 
@@ -336,6 +331,7 @@ footer p {
         padding: 5px;
     }
     .container2 {
+        margin-top: 100px;
         width: 400px;
         height: 370px; 
     }
