@@ -106,8 +106,38 @@ header {
     display: flex;
     justify-content: center;
 }
+.section1{
+    margin-top: 40px;
+    height: 500px;
+    width: 100%;
+}
+section .contenedor {
 
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    border: 3px solid #00000010;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.glass {
+    background: #ffffff10;
+    backdrop-filter: brightness(60%);
+}
+.contenido1 {
+    height: 500px;
+    width: 400px;
+}
+.contenido1 h1 {
+    
+}
+.contenido2 {
 
+    position: absolute;
+    height: 500px;
+    width: 400px;
+    margin-top: -500px;
+    margin-left: 800px;
+}
 
 
 
