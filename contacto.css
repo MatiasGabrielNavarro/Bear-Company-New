@@ -320,6 +320,10 @@ footer p {
 }
 
 @media(max-width: 630px) {
+    .section2 {
+        height: 100vh;
+        margin-top: 70px;
+    }
     .contenido1{
         width: 360px;
         height: 550px;
@@ -330,6 +334,7 @@ footer p {
     }
     .contenido2 {
         width: 360px;
+        margin-top: 50px;
     }
     .pepe {
         padding-left: 0;
