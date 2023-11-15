@@ -107,36 +107,127 @@ header {
     justify-content: center;
 }
 .section1{
-    margin-top: 40px;
-    height: 500px;
-    width: 100%;
+    height: 80vh;
+ 
 }
 section .contenedor {
-
-    height: 500px;
+    height: 750px;
     width: 100%;
     text-align: center;
     border: 3px solid #00000010;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    margin-top: 100px;
 }
 .glass {
     background: #ffffff10;
     backdrop-filter: brightness(60%);
 }
 .contenido1 {
-    height: 500px;
-    width: 400px;
+    height: 700px;
+    width: 600px;
+    margin:auto
 }
 .contenido1 h1 {
-    
+    font-size: 50px;
+    color: #fff;
+    padding-top: 110px;
 }
+.contenido1 p {
+    font-size: 26px;
+    color: white;
+}
+
+.section2 {
+    height: 80vh;
+}
+
+/*Formulario*/
 .contenido2 {
 
+    height: 647px;
+    width: 500px;
+    margin: auto;
+}
+.form-content {
+    width: 100%;
+    max-width: 450px;
+    background: #2c2f35;
+    padding: 50px 60px 70px;
+    text-align: center;
+    border-radius: 25px;
+
+}
+.form-content h1 {
+    font-size: 30px;
+    margin-bottom: 55px;
+    color: #fff;
+    position: relative;
+}
+.form-content h1::after {
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: #fff;
     position: absolute;
-    height: 500px;
-    width: 400px;
-    margin-top: -500px;
-    margin-left: 800px;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.input-field {
+    background: #515966;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    transition: max-height 05s;
+    overflow: hidden;
+}
+input {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: none;
+    padding: 18px 15px;
+    color: #fff;
+}
+input::placeholder {
+    color: #fff;
+}
+.input-field i {
+    margin-left: 15px;
+    color: #fff;
+}
+form p {
+    color: #fff;
+    text-align: left;
+    font-size: 13px;
+}
+form p a {
+    color: #fff;
+    margin-left: 5px;
+}
+
+.btn-field {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-field #signIn {
+    padding: 10px 0;
+    flex-basis: 48%;
+    font-size: 18px;
+    background: #04bd7d;
+    color: #fff;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
+textarea {
+    width: 100%;
 }
 
 
@@ -145,6 +236,37 @@ section .contenedor {
 
 
 
+
+
+footer {
+    background-color: #404040;
+    width: 100%;
+    padding: 1em 0;
+    color: #fff;
+    bottom: 0;
+
+ }
+footer p {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.pie {
+    width: 80%;
+    height: 120px;
+    padding-left: 330px;
+}
+.pie p {
+    padding-top: 20px;
+}
+.UADE {
+    font-family: 'Judson', serif;
+    font-size: 1.8em;
+    padding-top: 5px;
+    float: right;
+}
 
 
 
@@ -174,15 +296,94 @@ section .contenedor {
     .menu {
         display: block;
     }
-    .container {
-       margin: 0px auto ;
-       margin-top: 200px;
+
+    .section1 .contenedor {
+        margin-top: 250px;
     }
-    .container2 {
-        margin-top: 200px;
-    }
+
     .pie {
         padding-left: 1em;
     }
 
+}
+@media(max-width: 695px) {
+    .pie {
+        width: 90%;
+    }
+    .pepe {
+        padding-left: 10px;
+    }
+    .UADE {
+        float: none;
+        padding-left: 235px;
+    }
+}
+
+@media(max-width: 630px) {
+    .contenido1{
+        width: 360px;
+        height: 550px;
+        margin-top: 40px;
+    }
+    .contenido1 h1 {
+        font-size: 26px;
+    }
+    .contenido2 {
+        width: 360px;
+    }
+    .pepe {
+        padding-left: 0;
+    }
+}
+@media(max-width: 520px) {
+    .pie {
+        width: 90%;
+    }
+    footer {
+        height: 15%;
+        padding: 0;
+    }
+    .matias {
+        padding-left: 25px;
+    }
+    .joaquin {
+        float: right;
+    }
+    .pepe {
+        padding-left: 0px;
+    }
+    .Unidos {
+        font-size: 1.5em;
+        padding-top: 100px;
+        padding-left: 100px;
+    }
+    .UADE {
+        float: right;
+    }
+}
+@media(max-width: 519px) {
+    .pie {
+        width: 80%;
+    }
+    .joaquin {
+        float: none;
+        padding-left: 0px;  
+    }
+    .pepe {
+        padding-left: 10px;
+    }
+    .UADE {
+        padding-left: 30px;
+        float: none;
+    }
+}
+@media (max-width: 489px){
+    .UADE {
+       padding-left: 25px;
+    }
+}
+@media(max-width: 420px) {
+    .UADE {
+        float: right;
+    }
 }
