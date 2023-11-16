@@ -219,25 +219,27 @@ form p a {
 textarea {
     width: 100%;
 }
+
 footer {
     background-color: #404040;
     width: 100%;
     padding: 1em 0;
     color: #fff;
     bottom: 0;
-  }
-  footer p {
+
+ }
+footer p {
+    display: inline-block;
     font-size: 18px;
     font-weight: 300;
-  }
-footer .pie {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.pie {
     width: 80%;
     height: 120px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+    padding-left: 330px;
+}
 .pie p {
     padding-top: 20px;
 }
@@ -362,10 +364,17 @@ footer .pie {
     .pie {
         height: 150px;
     }
+
+    .joaquin {
+        padding-left: 0px;
+    }
     .matias {
-        padding: 0;
+        padding-top: 10px;
+    }
+    .pepe {
+        padding-top: 10px;
     }
     .UADE {
-        padding-left: 0px;
+        padding-left: 10px;
     }
 }
