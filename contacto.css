@@ -225,19 +225,20 @@ footer {
     padding: 1em 0;
     color: #fff;
     bottom: 0;
- }
-footer p {
-    display: inline-block;
+    position: fixed;
+  }
+  footer p {
     font-size: 18px;
     font-weight: 300;
-    padding-top: 20px;
-    padding-left: 20px;
-}
-.pie {
+  }
+footer .pie {
     width: 80%;
     height: 120px;
-    padding-left: 330px;
-}
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 .pie p {
     padding-top: 20px;
 }
@@ -266,9 +267,9 @@ footer p {
     }
 }
 @media(max-width: 695px) {
-    .pie {
+    footer .pie {
         width: 90%;
-    }
+    }   
     .pepe {
         padding-left: 10px;
     }
@@ -306,6 +307,10 @@ footer p {
         height: auto;
         padding: 0;
     }
+    footer p {
+        padding-top: 20px;
+      }
+      
     .matias {
         padding-left: 25px;
     }
