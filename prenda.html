@@ -29,8 +29,6 @@
                   <i class="fa-solid fa-bars"></i>
               </div>
           </div>
-          
-          
           <div class="menu">
               <li><a href="index.html">Inicio</a></li>
               <li><a href="cuidados.html" >Cuidados</a></li>
@@ -39,25 +37,34 @@
               <li><a href="unete.html" class="unete">Unete</a></li>
           </div>
         </header>
-
-
-
-
-
-
-
-
-
-
+        <section class="section1">
+            <div class="contenedor glass">
+                <h1>Gana premios por tu voto!</h1>
+                <P>No te pierdas la oportunidad de ganar prendas. Gracias a tus votos obtendras premios como camperas, remeras, gorras y joggin!
+                   Se realizara un sorteo con los correos anotados en el contacto. <br> !No te quedes sin tu prenda!
+                </P>
+            </div>
+        </section>
+        <section class="section2">
+            <div class="contenido-dibujos">
+              <img src="fotos/foto1.jpeg" alt="foto1" class="foto1">
+              <img src="fotos/foto2.jpeg" alt="foto2" class="foto2">
+              <img src="fotos/foto3.jpeg" alt="foto3" class="foto3">
+              <img src="fotos/foto4.jpeg" alt="foto4" class="foto4">
+            </div>
+        </section>
+        <footer>
+            <div class="pie">
+              <a href="https://matiasgabrielnavarro.github.io/Proyecto/" class="sitiodelgrupo">Sitio del grupo</a>  <p class="matias">Matias Gabriel</p> <p class="joaquin">Joaquin Pampuri</p> <p class="pepe">Pedro Figari</p> <a href="https://www.uade.edu.ar/" class="UADE">UADE</a>  
+            </div>
+         </footer>
         <script>
             const toggleBtn = document.querySelector('.togle')
             const toggleBtnIcon = document.querySelector('.togle i')
             const dropDownMenu = document.querySelector('.menu')
-    
             toggleBtn.onclick = function () {
                 dropDownMenu.classList.toggle('open')
                 const isOpen = dropDownMenu.classList.contains('open')
-    
                 toggleBtnIcon.classList = isOpen
                 ? 'fa-solid fa-xmark'
                 : 'fa-solid fa-bars'
