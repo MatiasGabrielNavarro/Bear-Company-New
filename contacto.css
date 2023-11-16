@@ -225,7 +225,6 @@ footer {
     padding: 1em 0;
     color: #fff;
     bottom: 0;
-    position: fixed;
   }
   footer p {
     font-size: 18px;
@@ -310,7 +309,7 @@ footer .pie {
     footer p {
         padding-top: 20px;
       }
-      
+
     .matias {
         padding-left: 25px;
     }
