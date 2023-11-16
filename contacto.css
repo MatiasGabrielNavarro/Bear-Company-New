@@ -352,4 +352,16 @@ footer p {
         float: none;
         padding-left: 1em;
     }
+    .section2 {
+        height: 70vh;
+    }
+    .pie {
+        height: 150px;
+    }
+    .matias {
+        padding: 0;
+    }
+    .UADE {
+        padding-left: 0px;
+    }
 }
