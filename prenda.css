@@ -199,6 +199,7 @@ footer p {
     }
     .contenido-dibujos {
         background: none;
+        height: 230vh;
     }
     .section1 {
         margin-top: 250px;
@@ -214,8 +215,8 @@ footer p {
         padding-top: 20px;
     }
     .section2 {
-        margin-top: 100px;
-        height: 210vh;
+        margin-top: 150px;
+        height: 230vh;
     }
     .pie {
         padding-left: 1em;
