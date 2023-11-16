@@ -214,7 +214,8 @@ footer p {
         padding-top: 20px;
     }
     .section2 {
-        height: 190vh;
+        margin-top: 100px;
+        height: 210vh;
     }
     .pie {
         padding-left: 1em;
