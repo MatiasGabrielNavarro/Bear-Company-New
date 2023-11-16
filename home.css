@@ -142,6 +142,7 @@ header {
     padding: 20px;
 }
 .container p {
+    color: #fff;
     padding: 0 25px;
     font-size: 1.3rem;
 }
@@ -174,6 +175,7 @@ header {
     padding: 20px;
 }
 .container2 p {
+    color: #fff;
     padding: 0 25px;
     font-size: 1.3rem;
 }
