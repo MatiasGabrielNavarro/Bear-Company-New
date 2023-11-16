@@ -4,15 +4,12 @@
     box-sizing: border-box;
     font-family:'Roboto', sans-serif;
     font-size: 19px;
-
-
 }
 body {
     height: 100vh;
     background-image: url(fotos/fondo-section1.jpeg);
     background-size: cover;
     background-position: center;
-
 }
 li {
     list-style: none;
@@ -91,7 +88,6 @@ header {
     overflow: hidden;
     transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
-
 .menu.open{
     height: 240px;
 }
@@ -108,7 +104,6 @@ header {
 }
 .section1{
     height: 80vh;
- 
 }
 section .contenedor {
     height: 750px;
@@ -136,14 +131,11 @@ section .contenedor {
     font-size: 26px;
     color: white;
 }
-
 .section2 {
     height: 80vh;
 }
-
 /*Formulario*/
 .contenido2 {
-
     height: 647px;
     width: 500px;
     margin: auto;
@@ -155,7 +147,6 @@ section .contenedor {
     padding: 50px 60px 70px;
     text-align: center;
     border-radius: 25px;
-
 }
 .form-content h1 {
     font-size: 30px;
@@ -207,7 +198,6 @@ form p a {
     color: #fff;
     margin-left: 5px;
 }
-
 .btn-field {
     width: 100%;
     display: flex;
@@ -229,22 +219,12 @@ form p a {
 textarea {
     width: 100%;
 }
-
-
-
-
-
-
-
-
-
 footer {
     background-color: #404040;
     width: 100%;
     padding: 1em 0;
     color: #fff;
     bottom: 0;
-
  }
 footer p {
     display: inline-block;
@@ -267,44 +247,23 @@ footer p {
     padding-top: 5px;
     float: right;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media(max-width: 992px){
     .navbar .links,
     .navbar .unete {
         display: none;
     }
-
     .navbar .togle {
         display: block;
     }
-
     .menu {
         display: block;
     }
-
     .section1 .contenedor {
         margin-top: 250px;
     }
-
     .pie {
         padding-left: 1em;
     }
-
 }
 @media(max-width: 695px) {
     .pie {
@@ -315,25 +274,24 @@ footer p {
     }
     .UADE {
         float: none;
-        padding-left: 235px;
+        padding-left: 1em;
     }
 }
-
 @media(max-width: 630px) {
     .section2 {
-        height: 130vh;
+        height: auto;
         margin-top: 70px;
     }
     .contenido1{
-        width: 360px;
-        height: 550px;
+        width: 100%;
+        height: auto;
         margin-top: 40px;
     }
     .contenido1 h1 {
         font-size: 26px;
     }
     .contenido2 {
-        width: 360px;
+        width: 100%;
         margin-top: 140px;
     }
     .pepe {
@@ -345,14 +303,15 @@ footer p {
         width: 90%;
     }
     footer {
-        height: 15%;
+        height: auto;
         padding: 0;
     }
     .matias {
         padding-left: 25px;
     }
     .joaquin {
-        float: right;
+        float: none;
+        padding-left: 0;
     }
     .pepe {
         padding-left: 0px;
@@ -363,7 +322,8 @@ footer p {
         padding-left: 100px;
     }
     .UADE {
-        float: right;
+        float: none;
+        padding-left: 1em;
     }
 }
 @media(max-width: 519px) {
@@ -372,13 +332,13 @@ footer p {
     }
     .joaquin {
         float: none;
-        padding-left: 0px;  
+        padding-left: 0;  
     }
     .pepe {
         padding-left: 10px;
     }
     .UADE {
-        padding-left: 30px;
+        padding-left: 1em;
         float: none;
     }
 }
@@ -389,6 +349,7 @@ footer p {
 }
 @media(max-width: 420px) {
     .UADE {
-        float: right;
+        float: none;
+        padding-left: 1em;
     }
 }
