@@ -264,10 +264,10 @@ footer p {
 @media(max-width: 560px) {
     .container {
         width: 355px;
-        margin-top: 250px;
+        margin-top: 260px;
     }
     .section2 {
-        height: 120vh;
+        height: 130vh;
     } 
     .contenedor1 {
         position: none;
@@ -287,12 +287,13 @@ footer p {
 
     .container1 {
         width: 355px;
-        margin-top: 50px;
+
     }
     .container1 input {
         font-size: 17px;
     }
-}
+
+} 
 
 @media(max-width: 520px) {
     .pie {
@@ -301,6 +302,7 @@ footer p {
     footer {
         height: 15%;
         padding: 0;
+        height: 150px;
     }
     .matias {
         padding-left: 25px;
