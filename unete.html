@@ -10,8 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Judson&family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="contacto.css">
-    <title>Contacto</title>
+    <link rel="stylesheet" href="unete.css">
+    <title>Unete</title>
 </head>
 <body>
     <header>
@@ -29,8 +29,6 @@
                   <i class="fa-solid fa-bars"></i>
               </div>
           </div>
-          
-          
           <div class="menu">
               <li><a href="index.html" target="_blank">Inicio</a></li>
               <li><a href="cuidados.html" target="_blank">Cuidados</a></li>
@@ -39,25 +37,49 @@
               <li><a href="unete.html"class="unete">Unete</a></li>
           </div>
         </header>
+    <section class="section1">
+        <div class="container glass">
+             <h1>Súmate al Proyecto</h1>
+        </div>
+    </section>  
+    
+    <section class="section2">
+    
+        <div class="contenedor1">
+           <h1>1.Toma de foto</h1>
+           <p>En un papel expresa tus sentimientos sobre el tema de los osos polares. Es obligatorio poner en una parte el nombre de la empresa #Bear Company , luego coloca tu firma y redes sociales(si es que cuentas con una).</p>
+        </div>
+        <div class="contenedor2">
+           <h1>2.Subir  a la web</h1>
+           <p>Una vez que tengas listo el papel, sube la foto en la parte de abajo. </p>
+        </div>
 
 
+    </section>
 
-
-
-
-
-
-
-
+    
+        <div class="container1">
+            <h1>Subir Fotos</h1>
+            <form id="uploadForm" enctype="multipart/form-data">
+                <label for="fileInput">Selecciona una foto:</label>
+                <input type="file" id="fileInput" name="fileInput" accept="image/*">
+                <button type="button" onclick="uploadFile()">Subir Foto</button>
+            </form>
+            <div id="preview"></div>
+        </div>
+        <script src="script.js"></script>
+        <footer>
+            <div class="pie">
+              <a href="https://matiasgabrielnavarro.github.io/Proyecto/" class="sitiodelgrupo">Sitio del grupo</a>  <p class="matias">Matias Gabriel</p> <p class="joaquin">Joaquin Pampuri</p> <p class="pepe">Pedro Figari</p> <a href="https://www.uade.edu.ar/" class="UADE">UADE</a>  
+            </div>
+         </footer>
         <script>
             const toggleBtn = document.querySelector('.togle')
             const toggleBtnIcon = document.querySelector('.togle i')
             const dropDownMenu = document.querySelector('.menu')
-    
             toggleBtn.onclick = function () {
                 dropDownMenu.classList.toggle('open')
                 const isOpen = dropDownMenu.classList.contains('open')
-    
                 toggleBtnIcon.classList = isOpen
                 ? 'fa-solid fa-xmark'
                 : 'fa-solid fa-bars'

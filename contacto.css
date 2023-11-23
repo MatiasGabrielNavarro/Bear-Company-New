@@ -276,7 +276,7 @@ footer p {
     }
     .UADE {
         float: none;
-        padding-left: 1em;
+        padding-left: 235px;
     }
 }
 @media(max-width: 630px) {
@@ -316,8 +316,7 @@ footer p {
         padding-left: 25px;
     }
     .joaquin {
-        float: none;
-        padding-left: 0;
+        float: right;
     }
     .pepe {
         padding-left: 0px;
@@ -328,8 +327,7 @@ footer p {
         padding-left: 100px;
     }
     .UADE {
-        float: none;
-        padding-left: 1em;
+       float: right;
     }
 }
 @media(max-width: 519px) {
@@ -344,7 +342,7 @@ footer p {
         padding-left: 10px;
     }
     .UADE {
-        padding-left: 1em;
+        padding-left: 30px;
         float: none;
     }
 }
@@ -362,19 +360,10 @@ footer p {
         height: 70vh;
     }
     .pie {
-        height: 150px;
+        height: 235px;
     }
 
-    .joaquin {
-        padding-left: 0px;
-    }
-    .matias {
-        padding-top: 10px;
-    }
-    .pepe {
-        padding-top: 10px;
-    }
     .UADE {
-        padding-left: 10px;
+        float: right;
     }
 }

@@ -148,7 +148,7 @@ header {
 }
 .Unidos {
     color: #fff;
-    font-size:2rem;
+    font-size:1.6rem;
     padding-left: 300px;
 }
 
@@ -174,11 +174,27 @@ header {
     text-align: center;
     padding: 20px;
 }
+.container2 a {
+    font-size: 1.3rem;
+    color: #404040;
+}
+.container2 a:hover {
+    color: #fff;
+    transition: color 1s;
+}
 .container2 p {
     color: #fff;
     padding: 0 25px;
     font-size: 1.3rem;
 }
+.container2 b {
+    position: absolute;
+    font-size: 1.6rem;
+    color: #fff;
+    padding-left: 300px;
+    padding-top: 50px;
+}
+
 
 
 
@@ -308,7 +324,7 @@ footer p {
     }
     .container2 {
         width: 500px;
-        height: 300px; 
+        height: 400px; 
     }
     .container2 p {
         color: #fff;
@@ -338,7 +354,11 @@ footer p {
     .container2 {
         margin-top: 100px;
         width: 400px;
-        height: 370px; 
+        height: 420px;
+
+    }
+    .container2 b {
+        padding-left: 90px;
     }
     .pie {
         width: 90%;
@@ -389,11 +409,17 @@ footer p {
 
 @media(max-width: 420px) {
     .container {
-        width: 350px;
+        width: 365px;
+        height: 400px;
 
     }
     .container2 {
-        width: 350px;
+        width: 365px;
+        height: 450px;
+    }
+    .container2 b{
+        padding-left: 80px;
+
     }
     .UADE {
         float: right;

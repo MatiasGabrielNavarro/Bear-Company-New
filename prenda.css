@@ -123,6 +123,17 @@ section .contenedor {
     color: #fff;
     font-size: 40px;
 }
+.contenedor a {
+    font-size: 25px;
+    color: #404040;
+}
+.contenedor a:hover {
+    color: #fff;
+    transition: color 1s;
+}
+.contenedor b {
+    font-size: 1.4rem;
+}
 .contenedor p{
     color: #fff;
     font-size: 25px;
@@ -205,14 +216,15 @@ footer p {
         margin-top: 250px;
     }
     .section1 .contenedor {
-        max-width: 375px;
+        max-width: 365px;
     }
+
     .section1 .contenedor h1 {
         font-size: 30px
     }
     .section1 .contenedor p {
         padding: 0;
-        padding-top: 20px;
+        padding-top: 40px;
     }
     .section2 {
         margin-top: 150px;
